@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	background-color: #111;
+}
+h1 {
+	font-size: 3rem;
+	font-weight: 100;
+	margin: 1rem 0 3rem;
+	text-align: center;
+	color: #fff;
+}
+.styling {
+	font-weight: 800;
+	color: rgb(211, 88, 17);
+}
+.input_div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.input_div .input {
+	padding: 0.5rem 1rem;
+	height: 50px;
+	outline: none;
+	background-color: #fff;
+	width: 450px;
+	font-size: 1.5rem;
+	margin: 0.25rem;
+	border-radius: 25px;
+	border: none;
+}
+.addButton {
+	height: 50px;
+	width: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	color: #fff;
+	font-size: 30px;
+	margin: 0.25rem;
+	background-color: rgb(38, 11, 158);
+	cursor: pointer;
+}
+.addButton:hover {
+	opacity: 0.7;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+.item {
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 4px solid #fff;
+}
+.item_input {
+	background: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	width: 350px;
+	font-size: 1.4rem;
+}
+.editButton {
+	font-size: 1.4rem;
+	margin: 0 0.5rem;
+	background: none;
+	outline: none;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+.removeButton {
+	font-size: 1.4rem;
+	margin: 0 0.5rem;
+	font-family: "Hind", sans-serif;
+	background: none;
+	outline: none;
+	color: #e00;
+	border: none;
+	cursor: pointer;
+}
