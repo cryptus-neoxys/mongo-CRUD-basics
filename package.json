@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "nodemon my_file.js"
+    "start": "nodemon script.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
