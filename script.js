@@ -8,6 +8,8 @@ const Todo = require('./models/todo');
 
 const app = express();
 
+var port = process.env.PORT || 8080;
+
 console.log('Todo required => ', Todo);
 console.log('Todo from mongoose => ', mongoose.model('TodoModel'));
 
@@ -67,6 +69,6 @@ app.post('/api/delete', async (req, res) => {
 	res.json({ status: 'ok' });
 })
 
-app.listen(13371, () => {
+app.listen(port, () => {
 	console.log('server up at 13371');
 });
