@@ -70,5 +70,5 @@ app.post('/api/delete', async (req, res) => {
 })
 
 app.listen(port, () => {
-	console.log('server up at 13371');
+	console.log('server up at http://localhost:8080/');
 });
