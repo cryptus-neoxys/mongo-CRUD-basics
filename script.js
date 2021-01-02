@@ -13,7 +13,7 @@ var port = process.env.PORT || 8080;
 console.log('Todo required => ', Todo);
 console.log('Todo from mongoose => ', mongoose.model('TodoModel'));
 
-mongoose.connect('mongodb+srv://test-user:mongoDBpass@cluster0.oktpr.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true });
+mongoose.connect(process.env.MONOG_URL, { useNewUrlParser: true });
 
 app.use('/', express.static(path.resolve(__dirname, 'assets')));
 
