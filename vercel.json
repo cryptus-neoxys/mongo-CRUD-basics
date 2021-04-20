@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "name": "mongoose-crud",
+  "builds": [
+    { "src": "script.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.js" }
+  ]
+}
