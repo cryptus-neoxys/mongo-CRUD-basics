@@ -1,7 +1,7 @@
 {
   "name": "mongobasics",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "script.js",
   "author": "Dev Sharma",
   "license": "MIT",
   "private": true,
