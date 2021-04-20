@@ -1,0 +1,11 @@
+---
+application:
+  name: "mongoose-crud"
+  project: "mongoose-crud"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-mongoose-crud"
+  routes:
+  - application_name: "mongoose-crud"
+    paths:
+    - "/*"
