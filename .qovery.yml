@@ -1,11 +1,13 @@
 ---
 application:
-  name: "mongoose-crud"
-  project: "mongoose-crud"
+  name: "mongo-CRUD-basics"
+  project: "mongo-CRUD-basics"
   organization: "QoveryCommunity"
+  publicly_accessible: true
+  port: 5000
 routers:
-- name: "main-mongoose-crud"
+- name: "main-mongo-CRUD-basics"
   routes:
-  - application_name: "mongoose-crud"
+  - application_name: "mongo-CRUD-basics"
     paths:
     - "/*"
